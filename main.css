@@ -7,6 +7,15 @@ ul
   list-style-type: none;
   text-align: right;
 }
+.cerclei{
+  color: lightgrey;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+.bloccarte{
+  display: flex;
+  justify-content: space-between;
+}
 
 .centrericone{
   margin: auto;
@@ -230,7 +239,7 @@ margin-right: 15%;
 }
 
 .paddingrecherche{
-  padding-left: 20px;
+  padding-left: 10px;
 }
 .padding{
   padding: 100px;
@@ -406,6 +415,7 @@ margin-top: 10px;
 .blocactivité{
   width: 100%;
   height: 600px;
+  gap: 25px;
 }
 .blocactivité2{
   width: 23%;
