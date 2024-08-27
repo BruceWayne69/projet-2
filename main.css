@@ -286,6 +286,17 @@ input::placeholder {
 .cubehebergementdetail{
   width: 90%;
 }
+.pluspopulaire{
+  display: flex;
+  flex-direction:column ;
+}
+.margetitrehebergement{
+  margin-right: 600px;
+}
+.margeiconepopulaire{
+  margin-left: 170px;
+}
+
 
 .taillepopulaire{
   flex: 1;
