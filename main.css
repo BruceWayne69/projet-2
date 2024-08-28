@@ -283,7 +283,7 @@ input::placeholder {
   background-color: white;
   padding: 0.5%;
   border-radius: 20px;
-  gap: 100%;
+  gap: 100px;
 }
 .cubehebergementdetail{
   width: 90%;
@@ -296,7 +296,7 @@ input::placeholder {
   margin-right: 680px;
 }
 .margeafficherplus{
-  margin-right: 810px;
+  margin-right: 860px;
 }
 .margeiconepopulaire{
   margin-left: 170px;
@@ -332,9 +332,11 @@ input::placeholder {
   padding-right: 20px;
 .bloc1{
   margin-bottom: 10px;
+  gap: 30px;
 }
 .bloc2{
 margin-top: 10px;
+gap: 30px;
 }
 }
 .img1{
