@@ -314,6 +314,7 @@ input::placeholder {
   background-color: white;
   height: auto;
   padding: 1% 0 1% 1%;
+  border-radius: 20px;
 }
 .cubepopulairedetail{
   width: 60%;
