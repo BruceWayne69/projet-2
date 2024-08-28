@@ -13,10 +13,7 @@ ul
   background-color: #555;
   border-radius: 0 10px 10px 0;
 }
-.bloccarte{
-  display: flex;
-  justify-content: space-between;
-}
+
 
 .centrericone{
   margin: auto;
@@ -268,19 +265,25 @@ input::placeholder {
   color: black;
 }
 
+.bloccarte{
+  display: flex;
+  justify-content: space-between;
+}
+
 .taillehebergement{
   flex: 2;
-  height: 650px;
+  height: 700px;
   margin-right: 20px;
   border-radius: 10px;
 }
 
 .cubehebergement{
-  width: 30%;
+  width: 300px;
   height: auto;
   background-color: white;
-  padding: 1%;
+  padding: 0.5%;
   border-radius: 20px;
+  gap: 100%;
 }
 .cubehebergementdetail{
   width: 90%;
@@ -290,7 +293,10 @@ input::placeholder {
   flex-direction:column ;
 }
 .margetitrehebergement{
-  margin-right: 600px;
+  margin-right: 680px;
+}
+.margeafficherplus{
+  margin-right: 810px;
 }
 .margeiconepopulaire{
   margin-left: 170px;
@@ -299,7 +305,7 @@ input::placeholder {
 
 .taillepopulaire{
   flex: 1;
-  height: 650px;
+  height: 700px;
   margin-right: 20px;
   border-radius: 10px;
 }
