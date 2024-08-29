@@ -62,7 +62,7 @@ html,body{
 }
 .margeinfo{
   margin-right: 25px;
-  margin-bottom: 15px;
+  margin-bottom: 1px;
 }
 .borderinfo{
   width: 20px;
@@ -306,7 +306,7 @@ input::placeholder {
   margin-right: 860px;
 }
 .margeiconepopulaire{
-  margin-left: 170px;
+  margin-left: 200px;
 }
 
 
