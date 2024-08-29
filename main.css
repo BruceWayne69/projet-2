@@ -1,510 +1,310 @@
-html,body{
-  font-family: Raleway;
-}
-
-.container{
-  box-sizing: border-box;
-  max-width: 1500px;
-  margin-left: auto;
-  margin-right: auto;
-  width: calc(100% - 40px);
-}
-.cerclei {
-  height: 5px;
-  width: 5px;
-  background-color: #555;
-  border-radius: 0 10px 10px 0;
-}
-
-
-.centrericone{
-  margin: auto;
-  display: flex;
-  position: absolute;
-}
-
-.borduregris {
-
-  border: 1px solid lightgrey;
-  border-radius: 10px;
-  padding: 5px;
-}
-
-.fontbleu{
-  background: blue;
-  color: white;
-  border-radius: 10px;
-  margin: 5px;
-
-}
-
-.flexcolonne{
-  display: flex;
-  background: lightgrey;
-  text-align: justify;
-}
-
-.location{
-  background: lightgrey;
-}
-
-.margefiltre{
-  margin-top: 50px;
-  margin-bottom: 40px;
-}
-
-.filtre{
-  display: flex;
-  align-items: center;
-}
-.margefiltretitre{
-  margin-right: 20px;
-}
-.margeinfo{
-  margin-right: 25px;
-  margin-bottom: 1px;
-}
-.borderinfo{
-  width: 20px;
-  height: 20px;
-  border: solid grey 60px;
-  border-radius: 100px;
-  border-width: thin;
-}
-.filtretexteicon{
-  border: 2px solid lightgrey;
-  height: 50px;
-  border-radius: 30px;
-  margin-right: 20px;
-}
-.filtreicon{
-  color: blue;
-}
-.filtretexte{
-  height: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 0 25px 25px 0;
-}
-.filtretexteicon:hover{
-  background-color: lightblue;
-}
-
-.flexinfo{
-    display: flex;
-  align-items: center;  
-}
-
-
-
-.heightblocfoot{
-  height: 150px;
-}
-
-.footer{
-  height: 300px;
-  margin-top: 100px;
-}
-
-.marginblocfoot1{
-  margin-left: 5%;
-}
-
-.marginblocfoot3{
-margin-right: 15%;
-}
-
-.footlien{
-  color: black;
-}
-.divlienfoot{
-  height: 30px;
-}
-
-.tailleicone{
-  height: 50px;
-  width: 50px;
-  border-radius: 10px 0 0 10px;
-}
-
-.recherche{
-   display: flex;
-  align-items: center;
-  height: 50px;
-  width: 230px;
-  font-size: 18px;
-  color: black;
-  font-weight: bold;
-  
-}
-
-.bordurerecherche{
-  width: 400px;
-  border-radius: 10px;
-  border: 0.5px solid lightgrey;
-}
-.left{
-  text-align: left;
-}
-
-
-.fontgris{
-  background-color: lightgrey;
-}
-
-.nonebordure{
-  border: none;
-}
-
-
-.centreflex{
-  display: flex;
-  align-items: center;
-}
-
-.centreflexx{
-  display: flex;
-  padding-left: 20px;
-  align-items: center;
-}
-
-.entreflex{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.autourflex{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.centrecolonneflex{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.entrecolonneflex{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-.leftt{
-  display: flex;
-  flex-direction:row ;
-}
-.autourcolonneflex{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-.taillelien{
-  width: 45%;
-}
-
-.liencouleur{
-  color: black;
-}
-
-.liencouleur2{
-  color: black;
-  padding-top: 40px;
-}
-
-
-
-.liencouleur2:hover{
-    border-top: 1px solid blue;
-    color: blue;
-}
-
-
-.tailleliens{
-  width: 140px;
-  height: 99px;
-}
-
-
-
-
-.logomarge{
-  margin-bottom: 10px;
-}
-
-.taillenav{
-  height: 100px;
-}
-
-.decoration{
-  text-decoration: none;
-}
-
-.paddingrecherche{
-  padding-left: 10px;
-}
-.padding{
-  padding: 100px;
-}
-
-.boutonrecherche{
-  height: 50px;
-  width: 120px;
-  cursor: pointer;
-  border-radius: 0 10px 10px 0;
-}
-.boutonrecherche:hover{
-  color: blue;
-  background-color: lightgrey;
-}
-.paddingicone{
-  padding-left: 20px;
-}
-
-.gras{
-  font-weight: bold;
-}
-
-input::placeholder {
-  color: black;
-}
-
-.bloccarte{
-  display: flex;
-  justify-content: space-between;
-}
-
-.taillehebergement{
-  flex: 2;
-  height: 700px;
-  margin-right: 20px;
-  border-radius: 10px;
-}
-
-.cubehebergement{
-  width: 300px;
-  height: auto;
-  background-color: white;
-  padding: 0.5%;
-  border-radius: 20px;
-  gap: 100px;
-}
-.cubehebergementdetail{
-  width: 90%;
-}
-.pluspopulaire{
-  display: flex;
-  flex-direction:column ;
-}
-.margetitrehebergement{
-  margin-right: 680px;
-}
-.margeafficherplus{
-  margin-right: 860px;
-}
-.margeiconepopulaire{
-  margin-left: 200px;
-}
-
-
-.taillepopulaire{
-  flex: 1;
-  height: 700px;
-  margin-right: 20px;
-  border-radius: 10px;
-}
-.blocpopulaire{
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.blocpopulaire2{
-  margin-bottom: 20px;
-}
-.cubepopulaire{
-  background-color: white;
-  height: auto;
-  padding: 1% 0 1% 1%;
-  border-radius: 20px;
-  width: 130%;
-}
-.cubepopulairedetail{
-  width: 60%;
-  padding-left: 5%;
-}
-.hebergementbloc{
-  padding-left: 20px;
-  padding-right: 20px;
-.bloc1{
-  margin-bottom: 10px;
-  gap: 30px;
-}
-.bloc2{
-margin-top: 10px;
-gap: 30px;
-}
-}
-.img1{
-  background-image: url("967ac2a7cb19bb0c4258e86af21e4053.jpeg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 120px;
-  border-radius: 15px 15px 0 0;
-}
-.img2{
-  background-image: url("862c3e92b2d2b82697be892a830e5692.jpeg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 120px;
-  border-radius: 15px 15px 0 0;
-}
-.img3{
-  background-image: url("ece9a0f6a77dc263e5dd6eb3bdb9d6fc.jpeg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 120px;
-  border-radius: 15px 15px 0 0;
-}
-.img4{
-  background-image: url("094cc9ee0f12d9f9a4145d2a38937583.jpeg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 120px;
-  border-radius: 15px 15px 0 0;
-}
-
-.img5{
-  background-image: url("16ef101b07d2affb696a7611d9e446c4.jpeg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 120px;
-  border-radius: 15px 15px 0 0;
-}
-.img6{
-  background-image: url("a1c07ec76ba9ab940c3109f498064160.jpeg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 120px;
-  border-radius: 15px 15px 0 0;
-}
-.img7{
-  background-image: url("0da2d055503dacc67150720f3b0f2e85.jpeg");
-  background-size: cover;
-  background-position: center;
-  width: 35%;
-  height: 160px;
-  border-radius: 15px 15px 0 0;
-}
-
-.img8{
-  background-image: url("b43e37b7b1f60ae54fd08dc4b2463069.jpeg");
-  background-size: cover;
-  background-position: center;
-  width: 35%;
-  height: 160px;
-  border-radius: 15px 15px 0 0;
-}
-.img9{
-  background-image: url("2e06273f1332a33d85b6f226363c31f1.jpeg");
-  background-size: cover;
-  background-position: center;
-  width: 35%;
-  height: 160px;
-  border-radius: 15px 0 0 15px;
-}
-
-
-
-.info{
-  display: flex;
-  align-items: center;
-}
-
-.parenticon{
-  width: 20px;
-  height: 20px;
-  border: 2px solid white;
-  border-radius: 25px;
-  margin-right: 5px;
-}
-.titreh2activité{
-  padding-bottom: 30px;
-}
-
-.activité{
-  margin-top: 50px;
-  margin-bottom: ;
-}
-.blocactivité{
-  width: 100%;
-  height: 600px;
-  gap: 25px;
-}
-.blocactivité2{
-  width: 23%;
-  height: 600px;
-}
-.cubeactivité{
-  width: 100%;
-  border-radius: 15px;
-  box-shadow: 5px 5px 5px 5px lightgrey;
-}
-.cubeactivité2{
-  width: 100%;
-  border-radius: 15px;
-  box-shadow: 5px 5px 5px 5px lightgrey;
-}
-.heighttitre{
-  height: 70px;
-}
-.titreactivité{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding-left: 5%;
-  width: 95%;
-}
-
-.img10{
-  background-image: url("01a0fc78db300e28c1ea596187f9eccc.jpeg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 530px;
-  border-radius: 15px 0 0 0;
-}
-
-.img11{
-  background-image: url("32a00c6a4296b52be988e4317a82e7ae.jpeg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 530px;
-  border-radius: 15px 0 0 0;
-}
-
-.img12{
-  background-image: url("5b617ae74b5459b92ad0726fe03d75ec.jpeg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 530px;
-  border-radius: 15px 0 0 0;
-}
-
-.img13{
-  background-image: url("7ba3baaeed8e988b39c98cb1a31abc86.jpeg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 530px;
-  border-radius: 15px 0 0 0;
-}
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>Site2</title>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=0"/>
+          <link href="main.css" rel="stylesheet">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,498;1,498&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+          <script src="https://kit.fontawesome.com/7fce18f105.js" crossorigin="anonymous"></script>
+     </head>
+     <body class="container"> 
+          <header>
+               <nav class="taillenav">
+                    <div class="entreflex">
+                         <div class="logomarge">
+                              <img src="Booki.jpg" alt="logobooki">
+                         </div>
+                         <div class="taillelien autourflex">
+                              <div class="tailleliens centreflex bordurenav ">
+                                   <a class="liencouleur2 decoration" href="#">Hébergements </a>
+                              </div>
+                              <div class="tailleliens centreflex bordurenav2">
+                                   <a class="liencouleur2 decoration" href="#"> Activités </a>
+                              </div>
+                         </div>
+                    </nav>
+               </header>
+               <section>
+                    <h2>Trouvez votre hébergement pour vos vacances de rêve</h2>
+                    <p>
+                         En plein centre-ville ou en pleine nature
+                    </p>
+                    <div class="Bordurerecherche leftt">
+                         <div class="tailleicone centreflex fontgris left">
+                              <i class="fa-solid fa-location-dot paddingicone"></i>
+                         </div>
+                         <div>
+                              <input class="recherche centreflex nonebordure paddingrecherche" type="search" placeholder="Marseille, France"/>
+                         </div>
+                         <div class="fontbleu centreflex boutonrecherche">
+                              Rechercher
+                         </div>
+                    </div>
+                    <div class="filtre margefiltre">
+                         <div class="margefiltretitre">
+                              <h3>Filtres</h3>
+                         </div>
+                         <div class="filtretexteicon entreflex">
+                              <i class="fa-solid fa-money-bill-wave centreflexx filtreicon"></i>
+                              <div class="filtretexte centreflex">
+                              Economique
+                         </div>
+                    </div>
+                    <div class="filtretexteicon entreflex">
+                         <i class="fa-solid fa-child centreflexx filtreicon"></i>
+                         <div class="filtretexte centreflex">
+                              Familial
+                         </div>
+                    </div>
+                    <div class="filtretexteicon entreflex">
+                         <i class="fa-solid fa-heart centreflexx filtreicon"></i>
+                         <div class="filtretexte centreflex">
+                              Romantique
+                         </div>
+                    </div>
+                    <div class="filtretexteicon entreflex">
+                         <i class="fa-solid fa-fire centreflexx filtreicon"></i>
+                         <div class="filtretexte centreflex">
+                              Nos pépites
+                         </div>
+                    </div>
+               </div>
+          </section>
+          <div class="info">
+               <div class="parenticon centreflex">
+                    <i class="fa-solid fa-info margeinfo borderinfo"></i>
+               </div>
+               <p>
+                    Plus de 500 logements disponibles dans cette ville
+               </p>
+          </div>
+          <section class="bloccarte">
+               <div class="autourcolonneflex taillehebergement fontgris hebergementbloc">
+                    <h3 class="margetitrehebergement">Hébergements à Marseille</h3>
+                    <div class="bloc1 entreflex">
+                         <div class="cubehebergement">
+                              <div class="img1"></div>
+                              <div class="cubehebergementdetail">
+                                   <h3>Hôtel du port</h3>
+                                   <p>
+                                        Nuit à partir de 52€
+                                   </p>
+                                   <div>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-regular fa-star filtreicon"></i>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="cubehebergement">
+                              <div class="img2"></div>
+                              <div class="cubehebergementdetail">
+                                   <h3>Hôtel Chez Amina</h3>
+                                   <p>
+                                        Nuit à partir de 96€
+                                   </p>
+                                   <div>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-solid fa-starfiltreicon"></i>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-regular fa-star filtreicon"></i>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="cubehebergement">
+                              <div class="img3"></div>
+                              <div class="cubehebergementdetail">
+                                   <h3>Hôtel Les mouettes</h3>
+                                   <p>
+                                        Nuit à partir de 76€
+                                   </p>
+                                   <div>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-regular fa-star filtreicon"></i>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="bloc2 entreflex">
+                         <div class="cubehebergement">
+                              <div class="img4"></div>
+                              <div class="cubehebergementdetail">
+                                   <h3>Hôtel de la mer</h3>
+                                   <p>
+                                        Nuit à partir de 46€
+                                   </p>
+                                   <div>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-regular fa-star filtreicon"></i>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="cubehebergement">
+                              <div class="img5"></div>
+                              <div class="cubehebergementdetail">
+                                   <h3>Auberge La Canebière</h3>
+                                   <p>
+                                        Nuit à partir de 25€
+                                   </p>
+                                   <div>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-regular fa-star filtreicon"></i>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="cubehebergement">
+                              <div class="img6"></div>
+                              <h3>Auberge Le Panier</h3>
+                              <p>
+                                   Nuit à partir de 23€
+                              </p>
+                              <div>
+                                   <i class="fa-solid fa-star filtreicon"></i>
+                                   <i class="fa-solid fa-star filtreicon"></i>
+                                   <i class="fa-solid fa-star filtreicon"></i>
+                                   <i class="fa-solid fa-star filtreicon"></i>
+                              </div>
+                         </div>
+                    </div>
+                   <a href="#" class="decoration lienfoot liencouleur gras margeafficherplus">
+                    Afficher plus
+               </a>
+
+               </div>
+        <div class="taillepopulaire blocpopulaire fontgris">
+               <div class="entreflex pluspopulaire">
+                    <h2 class="gras">Les plus populaires<i class="fa-solid fa-chart-line filtreicon margeiconepopulaire"></i></h2>
+                    
+               
+                    <div class="autourcolonneflex">
+                         <div class="centreflex cubepopulaire blocpopulaire2">
+                              <div class="img7"></div>
+                              <div class="cubepopulairedetail">
+                                   <h3>Hôtel le soleil du matin</h3>
+                                   <p>
+                                        Nuit à partir de 25€
+                                   </p>
+                                   <div>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-regular fa-star filtreicon"></i>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="centreflex cubepopulaire blocpopulaire2">
+                              <div class="img8"></div>
+                              <div class="cubepopulairedetail">
+                                   <h3>Chambre d'hôtes Au coeur de l'eau</h3>
+                                   <p>
+                                        Nuit à partir de 71€
+                                   </p>
+                                   <div>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-solid fa-star filtreicon"></i>
+                                        <i class="fa-regular fa-star filtreicon"></i>
+                                   </div>
+                              </div>
+                         </div>    
+                         <div class="centreflex cubepopulaire blocpopulaire">
+                                   <div class="img9"></div>
+                                   <div class="cubepopulairedetail">
+                                        <h3>Hôtel Bleu et Blanc</h3>
+                                        <p>
+                                             Nuit à partir de 68€
+                                        </p>
+                                        <div>
+                                             <i class="fa-solid fa-star filtreicon"></i>
+                                             <i class="fa-solid fa-star filtreicon"></i>
+                                             <i class="fa-solid fa-star filtreicon"></i>
+                                             <i class="fa-solid fa-star filtreicon"></i>
+                                             <i class="fa-regular fa-star filtreicon"></i>
+                                        </div>
+                                   </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+                   </section>
+                    <section class="activité">
+                         <h2 class="titreh2activité">Activités à Marseille</h2>
+                         <div class="blocactivité entreflex">
+                              <div class="cubeactivité centrecolonneflex">
+                                   <div class="img10"></div>
+                                   <div>
+                                        <h3 class="heighttitre titreactivité">Vieux Port</h3>
+                                   </div>
+                              </div>
+                              <div class="cubeactivité centrecolonneflex">
+                                   <div class="img11"></div>
+                                   <div>
+                                        <h3 class="heighttitre titreactivité">Fort de Pomègues</h3>
+                                   </div>
+                              </div>
+                              <div class="cubeactivité centrecolonneflex">
+                                   <div class="img12"></div>
+                                   <div>
+                                        <h3 class="heighttitre titreactivité">Parc national des Calanques</h3>
+                                   </div>
+                              </div>
+                              <div class="cubeactivité centrecolonneflex">
+                                   <div class="img13"></div>
+                                   <div>
+                                        <h3 class="heighttitre titreactivité">Notre-Dame-de-la-Garde</h3>
+                                   </div>
+                              </div>
+                         </div>
+                    </section>
+                    <footer>
+                         <div class="footer fontgris entreflex">
+                              <div class="heightblocfoot  marginblocfoot1">
+                                   <h3>A propos</h3>
+                                   <div class="divlienfoot">
+                                        <a href="#" class="decoration lienfoot liencouleur">Fonctionnement du site</a>
+                                   </div>
+                                   <div class="divlienfoot">
+                                        <a href="#" class="decoration lienfoot liencouleur"> Conditions générales</a>
+                                   </div>
+                                   <div class="divlienfoot">
+                                        <a href="#" class="decoration lienfoot liencouleur">Données et confidentialité</a>
+                                   </div>
+                              </div>
+                              <div class="heightblocfoot">
+                                   <h3>Nos Hébergements</h3>
+                                   <div class="divlienfoot">
+                                        <a href="#" class="decoration lienfoot liencouleur">Charte qualité</a>
+                                   </div>
+                                   <div class="divlienfoot">
+                                        <a href="#" class="decoration lienfoot liencouleur">Proposer votre hôtel</a>
+                                   </div>
+                              </div>
+                              <div class="heightblocfoot marginblocfoot3">
+                                   <h3>Assistance</h3>
+                                   <div class="divlienfoot">
+                                        <a href="#" class="decoration lienfoot liencouleur">Centre d'aide</a>
+                                   </div>
+                                   <div class="divlienfoot">
+                                        <a href="#" class="decoration lienfoot liencouleur">Nous contacter</a>
+                                   </div>
+                              </div>
+                         </footer>            
+                    </body>
+               </html>
