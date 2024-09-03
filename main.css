@@ -35,7 +35,6 @@ html,body{
   background: blue;
   color: white;
   border-radius: 10px;
-  margin: 5px;
 
 }
 
@@ -306,16 +305,19 @@ input::placeholder {
   flex-direction:column ;
 }
 .margetitrehebergement{
-  margin-right: 680px;
+  margin-right: 720px;
 }
 .margeafficherplus{
   margin-right: 860px;
 }
 .margeiconepopulaire{
-  margin-left: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+
 }
 .margepluspopulaire{
-  margin-right: 150px;
+  margin-right: 185px;
 }
 
 
