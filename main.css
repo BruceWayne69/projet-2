@@ -9,13 +9,7 @@ html,body{
   margin-right: auto;
   width: calc(100% - 40px);
 }
-.cerclei {
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  background-color: blue;
-  border-width: thin;
-}
+
 
 
 .centrericone{
@@ -138,15 +132,11 @@ margin-right: 15%;
   font-weight: bold;
 }
 .boutonrecherche{
-  height: 50px;
   width: 120px;
   cursor: pointer;
   border-radius: 0 10px 10px 0;
 }
-.boutonrecherche:hover{
-  color: blue;
-  background-color: lightgrey;
-}
+
 
 .bordurerecherche{
   width: 400px;
@@ -452,7 +442,7 @@ gap: 30px;
 
 .activité{
   margin-top: 50px;
-  margin-bottom: ;
+  margin-bottom: 50px ;
 }
 .blocactivité{
   width: 100%;
@@ -489,7 +479,7 @@ gap: 30px;
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 450px;
+  height: 350px;
   border-radius: 15px 0 0 0;
 }
 
@@ -498,7 +488,7 @@ gap: 30px;
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 450px;
+  height: 350px;
   border-radius: 15px 0 0 0;
 }
 
@@ -507,7 +497,7 @@ gap: 30px;
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 450px;
+  height: 350px;
   border-radius: 15px 0 0 0;
 }
 
@@ -516,10 +506,12 @@ gap: 30px;
   background-size: cover;
   background-position: center;
   width: 100%;
-  height: 450px;
+  height: 350px;
   border-radius: 15px 0 0 0;
 }
 
 .iconeinfo{
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
