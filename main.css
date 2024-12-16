@@ -532,4 +532,12 @@ gap: 30px;
   border-radius: 15px 15px 0 0;
 }
 
+/* Tablet (768px à <1024px) */
+@media screen (min-width: 768px) and (max-width: 1024px){
 
+}
+
+/* Styles pour mobile (0 à <768px) */
+@media screen (max-width: 768px){
+
+}
